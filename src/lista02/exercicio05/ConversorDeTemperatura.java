@@ -10,7 +10,6 @@ public class ConversorDeTemperatura {
 
         input.close();
 
-        int i = 8;
         double tempCelsius = (tempFahrenheit - 32) / 1.8;
 
         System.out.printf("A temperatura digitada em Fahrenheit (°F) corresponde em Celsius (°C) à %.1f", tempCelsius);
